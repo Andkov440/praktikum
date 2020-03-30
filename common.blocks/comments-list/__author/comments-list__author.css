@@ -1,0 +1,15 @@
+.comments-list__author {
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 24px;
+	padding-bottom: 21px;
+	padding-top: 10px;
+}
+
+@media (min-width: 1440px) {
+	.comments-list__author {
+		order: 2;
+		padding-top: 0;
+		line-height: 22px;
+	}
+}

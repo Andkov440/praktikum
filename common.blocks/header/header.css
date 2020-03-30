@@ -1,0 +1,11 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	width: 288px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+  .header {
+    width: 1184px;
+}

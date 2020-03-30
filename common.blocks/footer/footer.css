@@ -1,0 +1,12 @@
+.footer {
+	margin: 0 auto;
+	width: 288px;
+}
+
+@media (min-width: 1440px) {
+	.footer {
+		width: 1184px;
+		display: flex;
+		justify-content: space-between;
+	}
+}

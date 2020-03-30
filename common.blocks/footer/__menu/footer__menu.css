@@ -1,0 +1,9 @@
+.footer__menu {
+	padding-top: 64px;
+}
+
+@media (min-width: 1440px) {
+	.footer__menu {
+		padding-top: 0;
+	}
+}

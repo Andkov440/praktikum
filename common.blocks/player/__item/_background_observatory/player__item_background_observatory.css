@@ -1,0 +1,26 @@
+.player__item_background_observatory {
+	display: block;
+  	position: relative;
+}
+
+.player__item_background_observatory::after {
+	content: "";
+	background-color: #000000;
+	opacity: 0.5;
+	background-image: url('../../../../img/observatory.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;   
+  	border-radius: 5px;
+}
+
+@media (min-width: 1440px) {
+	.player__item_background_observatory::after {
+		background-image: url('../../../../img/observatory-1440.png');
+	}
+}

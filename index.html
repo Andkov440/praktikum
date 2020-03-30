@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Путешествия по России</title>
+	<link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+	<svg style="display: none;">
+      <symbol viewBox="0 0 41 41" id="icon-video-play">
+        <title>icon-video-play</title>
+        <path d="M20.5 1.5375C30.955 1.5375 39.4625 10.045 39.4625 20.5C39.4625 30.955 30.955 39.4625 20.5 39.4625C10.045 39.4625 1.5375 30.955 1.5375 20.5C1.5375 10.045 10.045 1.5375 20.5 1.5375ZM20.5 0C9.17375 0 0 9.17375 0 20.5C0 31.8263 9.17375 41 20.5 41C31.8263 41 41 31.8263 41 20.5C41 9.17375 31.8263 0 20.5 0Z" fill="white"/>
+		<path d="M17.7831 27.0086L27.5206 21.3711C27.8281 21.1661 28.0331 20.8586 28.0331 20.4999C28.0331 20.1411 27.8281 19.7824 27.5206 19.6286L17.7831 13.9911C17.4756 13.7861 17.0656 13.7861 16.7581 13.9911C16.4506 14.1961 16.2456 14.5036 16.2456 14.8624V26.1374C16.2456 26.4961 16.4506 26.8549 16.7581 27.0086C17.0656 27.1624 17.4244 27.2136 17.7831 27.0086Z" fill="white"/>
+      </symbol>
+    </svg>
+	<header class="header">
+		<img class="header__image" src="img/logo.png" width="142" height="42" alt="Лого">
+		<ul class="lang-menu">
+			<li class="lang-menu__item lang-menu__item_underlined">Ru</li>
+			<li class="lang-menu__item">En</li>
+		</ul>
+	</header>
+	<main class="main">
+		<div class="lead">
+			<h1 class="lead__title">Путешествия по России</h1>
+			<p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+			<picture>
+				<source media="(min-width: 1280px)" srcset="img/coupe-1440.jpg">
+				<img class="lead__picture" src="img/coupe.jpg" alt="Боковая полка">
+			</picture>
+			<p class="lead__caption">Ваша полка — верхняя</p>
+		</div>
+		<article class="intro">
+			<h2 class="intro__caption">Чего мы там не видели?</h2>
+			<p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно  без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+			<ul class="intro__description description">
+				<li class="description__item">Часовых поясов <span class="description__count">11</span></li>
+				<li class="description__item">Объектов природного наследия ЮНЕСКО <span class="description__count">12</span></li>
+				<li class="description__item">Объектов культурного наследия ЮНЕСКО <span class="description__count">16</span></li>
+				<li class="description__item">Природных заповедников <span class="description__count">105</span></li>
+				<li class="description__item">Аэропортов <span class="description__count">241</span></li>
+			</ul>
+		</article>
+		<ul class="main__gallery photo-grid">
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid1-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid1-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid1-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid1-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid1-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid2-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid2-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid2-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid2-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid2-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid3-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid3-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid3-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid3-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid3-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid4-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid4-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid4-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid4-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid4-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid5-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid5-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid5-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid5-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid5-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid6-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid6-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid6-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid6-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid6-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid7-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid7-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid7-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid7-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid7-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid8-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid8-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid8-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid8-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid8-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid9-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid9-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid9-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid9-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid9-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid10-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid10-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid10-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid10-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid10-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid11-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid11-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid11-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid11-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid11-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+			<li class="photo-grid__item">
+				<a class="photo-grid__link">
+					<picture>
+						<source media="(min-width: 1280px)" srcset="img/photo-grid12-1280.jpg">
+                  		<source media="(min-width: 1024px)" srcset="img/photo-grid12-1024.jpg">
+                  		<source media="(min-width: 768px)" srcset="img/photo-grid12-768.jpg">
+                  		<source media="(min-width: 375px)" srcset="img/photo-grid12-375.jpg">	
+						<img class="photo-grid__image" src="img/photo-grid12-320.jpg" alt="Поезд">
+					</picture>
+				</a>
+			</li>
+		</ul>
+		<div class="places">
+			<article class="places__item">
+				<h2 class="places__caption">Куршская коса</h2>
+				<div class="places__url url">
+					<p class="url__caption">url</p>
+					<a class="url__address" href="#">park-kosa.ru</a>
+				</div>
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/kurshskaya_kosa-1440.jpg">
+					<img class="places__img" src="img/kurshskaya_kosa.jpg" alt="Куршская коса">
+				</picture>
+				<div class="places__description">
+					<p class="places__text">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
+					<p class="places__text">На этом Калининградская область не заканчивается. Для путешественника  и исследователя там же  по соседству — самая западная точка России, Балтийская коса, —  и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная  в спокойствие природы и запах стального, прохладного моря.</p>
+				</div>
+			</article>
+			<article class="places__item">
+				<h2 class="places__caption">Кольский</h2>
+				<div class="places__url url url_no-padding">
+					<p class="url__caption">url</p>
+					<a class="url__address" href="#">National Geographic</a>
+				</div>
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/kolskiy-1440.jpg">
+					<img class="places__img" src="img/kolskiy.jpg" alt="Кольский">
+				</picture>
+				<div class="places__description">
+					<p class="places__text">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+					<p class="places__text">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
+				</div>
+			</article>
+			<article class="places__item">
+				<h2 class="places__caption">Алтай</h2>
+				<div class="places__url url url_no-padding">
+					<p class="url__caption">url</p>
+					<a class="url__address" href="#">Facebook</a>
+				</div>
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/altay-1440.jpg">
+					<img class="places__img" src="img/altay.jpg" alt="Алтай">
+				</picture>
+				<div class="places__description">
+					<p class="places__text">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра.  А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
+					<p class="places__text">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы,  а на равнинах пасутся косули.  И знаменитые манулы — тоже обитатели Алтайского края.</p>
+				</div>
+			</article>
+			<article class="places__item">
+				<h2 class="places__caption">Зимний Байкал</h2>
+				<div class="places__url url">
+					<p class="url__caption">url</p>
+					<a class="url__address" href="#">https://vk.com/baikalmile</a>
+				</div>
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/baykal-1440.jpg">
+					<img class="places__img" src="img/baykal.jpg" alt="Зимний Байкал">
+				</picture>
+				<div class="places__description">
+					<p class="places__text">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды  и одно из красивейших мест  в России.</p>
+					<p class="places__text">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+				</div>
+			</article>
+			<article class="places__item">
+				<h2 class="places__caption">Карелия</h2>
+				<div class="places__url url url_no-padding">
+					<p class="url__caption">url</p>
+					<a class="url__address" href="#">http://vodlozero.ru/</a>
+				</div>
+				<picture>
+					<source media="(min-width: 1280px)" srcset="img/karelia-1440.jpg">
+					<img class="places__img" src="img/karelia.jpg" alt="Карелия">
+				</picture>
+				<div class="places__description">
+					<p class="places__text">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше  чем полтысячелетия. Прикоснитесь  к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
+				</div>
+			</article>
+		</div>
+		<div class="video">
+			<h2 class="video__title">В глубины Земли и&nbsp;в дальний космос</h2>
+			<p class="video__text">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
+			<ul class="player">
+				<li class="player__item player__item_background_kamchatka">
+					<div class="player__controls">
+						<svg class="player__play" width="41" height="41">
+                			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-video-play"></use>
+              			</svg>
+              			<p class="player__duration">6:30</p>
+              			<h3 class="player__caption">Colors of Kamchatka</h3>
+              			<p class="player__director">Director: Pavel Karykhalin</p>
+              		</div>
+              	</li>
+              	<li class="player__item player__item_background_observatory">
+              		<div class="player__controls">
+						<svg class="player__play" width="41" height="41">
+                			<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-video-play"></use>
+              			</svg>
+              			<p class="player__duration player__duration_padding_smaller">24:45</p>
+              			<h3 class="player__caption">Обсерватория | Observatory</h3>
+              			<p class="player__director">Director: Alexander Khudokon</p>
+              		</div>
+              	</li>
+			</ul>
+		</div>
+		<div class="comments">
+			<h2 class="comments__title">Фотографы, снимающие Россию</h2>
+			<p class="comments__subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+			<ul class="comments-list">
+				<li class="comments-list__item">
+					<img class="comments-list__photo" src="img/author1.jpg" width="96" height="96" alt="Виктор Лягушкин">
+					<p class="comments-list__author">Виктор Лягушкин</p>
+					<blockquote class="comments-list__cite">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
+				</li>
+				<li class="comments-list__item">
+					<img class="comments-list__photo" src="img/author2.jpg" width="96" height="96" alt="Иван Хафизов">
+					<p class="comments-list__author">Иван Хафизов</p>
+					<blockquote class="comments-list__cite">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
+				</li>
+				<li class="comments-list__item">
+					<img class="comments-list__photo" src="img/author3.jpg" width="96" height="96" alt="Сергей Максимишин">
+					<p class="comments-list__author">Сергей Максимишин</p>
+					<blockquote class="comments-list__cite">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
+				</li>
+		</div>
+		<div class="main__cover cover">
+			<h2 class="cover__title">До Байкала «на собаках»</h2>
+			<p class="cover__subtitle">По мотивам учебной темы<br> о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+		</div>	
+	</main>
+	<footer class="footer">
+		<nav class="footer__menu menu">
+			<ul class="menu__list">
+				<li class="menu__item">Карты</li>
+				<li class="menu__item">Погода</li>
+				<li class="menu__item">Расписание</li>
+				<li class="menu__item">Календарь</li>
+				<li class="menu__item">Путешествия</li>
+			</ul>
+		</nav>
+		<p class="footer__copyright">© 2019. Ковалев Андрей</p>		
+	</footer>
+</body>
+</html>

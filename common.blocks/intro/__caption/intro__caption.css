@@ -1,0 +1,19 @@
+.intro__caption {
+	//width: 288px;
+	//margin: 0 auto;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 35px;
+	padding-top: 64px;
+	padding-bottom: 32px;
+}
+
+@media (min-width: 1440px) {
+	.intro__caption {
+		margin: 0;
+		padding-top: 80px;
+		padding-bottom: 48px;
+		font-size: 54px;
+		line-height: 59px;
+	}
+}

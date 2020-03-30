@@ -1,0 +1,16 @@
+.places__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 27px;
+	padding-top: 24px;
+}
+
+@media (min-width: 1440px) {
+	.places__text {
+		padding-top: 0;
+		font-size: 18px;
+		line-height: 30px;
+		padding-bottom: 36px;
+	}
+}

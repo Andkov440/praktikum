@@ -1,0 +1,13 @@
+.lang-menu {
+	font-size: 18px;
+	line-height: 17px;
+	display: flex;
+	margin-top: 32px;
+}
+
+@media (min-width: 1440px) {
+  .lang-menu {
+    font-size: 24px;
+	line-height: 23px;
+	margin-top: 47px;
+}

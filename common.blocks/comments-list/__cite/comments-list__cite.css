@@ -1,0 +1,14 @@
+.comments-list__cite {
+	font-size: 16px;
+	line-height: 23px;
+	padding-bottom: 47px;
+}
+
+@media (min-width: 1440px) {
+	.comments-list__cite {
+		padding-top: 42px;
+		padding-bottom: 24px;
+		font-size: 14px;
+		line-height: 24px;
+	}
+}

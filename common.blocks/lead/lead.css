@@ -1,0 +1,10 @@
+.lead {
+	margin: 0 auto;
+	width: 288px;
+}
+
+@media (min-width: 1440px) {
+	.lead {
+		width: 982px;
+	}
+}

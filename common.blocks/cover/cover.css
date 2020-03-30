@@ -1,0 +1,32 @@
+.cover {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  width: 320px;
+}
+
+.cover::after {
+	content: "";
+	background-image: url('../../img/cover.png');
+	background-color: #2A2C2F;
+	opacity: 0.3;
+	background-repeat: no-repeat;
+  background-size: cover;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+@media (min-width: 1440px) {
+  .cover {
+    width: 1184px;
+  }
+
+  .cover::after {
+    background-image: url('../../img/cover-1440.png');
+  }
+}
+

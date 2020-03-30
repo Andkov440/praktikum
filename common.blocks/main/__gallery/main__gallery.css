@@ -1,0 +1,9 @@
+.main__gallery {
+	padding-bottom: 16px;
+}
+
+@media (min-width: 1440px) {
+	.main__gallery {
+		padding-bottom: 92px;
+	}
+}

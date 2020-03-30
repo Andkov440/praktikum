@@ -1,0 +1,12 @@
+.description {
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+@media (min-width: 1440px) {
+	.description {
+		font-size: 13px;
+		line-height: 20px;
+	}
+}

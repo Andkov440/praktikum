@@ -1,0 +1,10 @@
+.comments {
+	margin: 0 auto;
+	width: 288px;
+}
+
+@media (min-width: 1440px) {
+	.comments {
+		width: 1184px;
+	}
+}

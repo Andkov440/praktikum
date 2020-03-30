@@ -1,0 +1,10 @@
+.player__item {
+	padding-bottom: 8px;
+	border-radius: 5px;
+}
+
+@media (min-width: 1440px) {
+	.player__item {
+		width: 583px;
+	}
+}

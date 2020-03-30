@@ -1,0 +1,15 @@
+.player__duration {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: 0.3em;
+	padding-top: 49px;
+	padding-bottom: 8px;
+}
+
+@media (min-width: 1440px) {
+	.player__duration {
+		padding-top: 94px;
+		padding-bottom: 12px;
+	}
+}

@@ -1,0 +1,9 @@
+.player__duration_padding_smaller {
+	padding-top: 23px;
+}
+
+@media (min-width: 1440px) {
+	.player__duration_padding_smaller {
+		padding-top: 94px;
+	}
+}

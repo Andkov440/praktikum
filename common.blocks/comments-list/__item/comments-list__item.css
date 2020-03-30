@@ -1,0 +1,12 @@
+.comments-list__item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media (min-width: 1440px) {
+	.comments-list__item {
+		width: 382px;
+		align-items: flex-start;
+	}
+}

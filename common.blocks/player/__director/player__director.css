@@ -1,0 +1,11 @@
+.player__director {
+	font-size: 14px;
+	line-height: 15px;
+	padding-bottom: 16px;
+}
+
+@media (min-width: 1440px) {
+	.player__director {
+		padding-bottom: 30px;
+	}
+}

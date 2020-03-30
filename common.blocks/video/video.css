@@ -1,0 +1,10 @@
+.video {
+	width: 288px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+	.video {
+		width: 1184px;
+	}
+}

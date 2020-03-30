@@ -1,0 +1,13 @@
+.photo-grid {
+	width: 288px;
+	margin: 0 auto;
+}
+
+@media (min-width: 1440px) {
+	.photo-grid {
+		width: 1184px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
